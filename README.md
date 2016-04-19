@@ -1,6 +1,8 @@
 # Geode Test Suite
 
-### Requires geode to be started in rest API mode
+### Requires 
+
+- geode to be started in rest API mode
 
 ```bash
 $ ./gfsh
@@ -11,6 +13,9 @@ $ create region --name=simple --type=REPLICATE
 $ create region --name=person --type=REPLICATE
 $ create region --name=timeseries --type=REPLICATE
 $ create region --name=episode --type=REPLICATE
+$ create region --name=raw --type=REPLICATE
 ```
+
+- Spark 1.6.0
 
 NOTE : Geode swagger UI should be accessible at http://localhost:8000/gemfire-api/docs/index.html
