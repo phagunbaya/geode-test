@@ -15,7 +15,10 @@ $ create region --name=timeseries --type=REPLICATE
 $ create region --name=episode --type=REPLICATE
 $ create region --name=raw --type=REPLICATE
 ```
+NOTE : Geode swagger UI should be accessible at http://localhost:8000/gemfire-api/docs/index.html
+
 
 - Spark 1.6.0
 
-NOTE : Geode swagger UI should be accessible at http://localhost:8000/gemfire-api/docs/index.html
+
+
